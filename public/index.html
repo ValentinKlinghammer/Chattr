@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="chattrApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Chattr - Stay connected</title>
+</head>
+<body>
+  <h1>Chattr</h1>
+
+  <div data-ng-view></div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script> var socket = io.connect(); </script>
+  <script src="js/app.js"></script>
+</body>
+</html>
